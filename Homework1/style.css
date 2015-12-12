@@ -1,0 +1,43 @@
+body {
+  background-color: #263238;
+  color: white;
+}
+
+.container {
+    border: 4px #FFFFFF solid;
+    width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+
+}
+
+.divider {
+  border: 1px #FFFFFF	solid;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+img {
+  border: 1px #FFFFFF solid;
+  padding: 10px;
+  float: right;
+  margin-left: 10px;
+}
+
+a {
+  color: #57c2b3
+}
