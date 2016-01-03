@@ -1,3 +1,25 @@
+/*Container CSS*/
+#container {
+  margin: 40px;
+}
+
+header, footer {
+  width: 100%;
+  float: left;
+}
+
+#content {
+    float: left;
+    width: 60%;
+    margin-right: 5%;
+  }
+
+#sidebar {
+  float: right;
+  width: 35%;
+  margin-top: 44px;
+}
+
 /*Header and Nav CSS*/
 .headline {padding-bottom: 5px;}
 
@@ -51,29 +73,7 @@ header nav ul li a:hover {
 }
 .firstcharacter {float: left; width: 0.7em; font-size: 400%; line-height: 100%; font-weight: 300;}
 
-/*Container CSS*/
-#container {
-  margin: 40px;
-}
-
-header, footer {
-  width: 100%;
-  float: left;
-}
-
 /*Content CSS*/
-#content {
-    float: left;
-    width: 60%;
-    margin-right: 5%;
-  }
-
-#sidebar {
-  float: right;
-  width: 35%;
-  margin-top: 44px;
-}
-
 h2 {
   color: grey;
   font-family: 'Open Sans', sans-serif;
@@ -83,7 +83,6 @@ h2 {
   margin: inherit;
   margin-top: 50px;
   margin-bottom: 2px;
-
 }
 
 h3 {
@@ -99,6 +98,15 @@ h3 {
   width: 100%;
 }
 
+#more {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  color: red;
+  float: right;
+  padding-top: 1px;
+  padding-bottom: 15px;
+}
+
 /*Aside CSS*/
 .aboutus {padding-top: 42px;}
 .image {padding-top: 30px;}
@@ -110,21 +118,10 @@ h5 {
   margin: inherit;
 }
 
-
 #content p {
   font-family: 'Open Sans', sans-serif;
   color: grey;
   font-size: 14px;
-
-}
-
-#more {
-  text-decoration: none;
-  font-family: 'Open Sans', sans-serif;
-  color: red;
-  float: right;
-  padding-top: 1px;
-  padding-bottom: 15px;
 }
 
 aside p {
@@ -144,6 +141,7 @@ aside ul li a {
   line-height: 28px;
 }
 
+/*Footer CSS*/
 footer nav {
   padding-top: 10px;
 }

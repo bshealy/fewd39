@@ -1,0 +1,19 @@
+h1 {font-family: 'Raleway', sans-serif;
+text-align: center;
+}
+
+h2 {font-family: 'Raleway', sans-serif;
+text-align: center;
+}
+
+a {text-decoration: none; font-family: 'Raleway', sans-serif;
+}
+
+li {padding-top: 5px; list-style-type: none;
+}
+
+ul {text-align: center;
+}
+
+.homework {width: 50%; float: left;}
+.classass {width: 50%; float: right;}
