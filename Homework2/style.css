@@ -1,0 +1,145 @@
+#container {
+  margin: 40px;
+}
+
+header, footer {
+  width: 100%;
+  float: left;
+}
+
+#content {
+    float: left;
+    width: 60%;
+    margin-right: 5%;
+  }
+
+#sidebar {
+  float: right;
+  width: 35%;
+  margin-top: 44px;
+}
+
+h1 {
+  display: inline;
+  color: red;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin-right: 20px;
+}
+
+h4 {
+  display: inline;
+  color: grey;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+header nav ul {
+  list-style: none;
+  display: inline;
+  width: 100%;
+}
+
+header nav ul li {
+  display: inline;
+  background-color: black;
+  padding: 10px 15px;
+  width: 16.66%;
+  float: left;
+  text-align: center;
+  border-right: 1px solid white;
+  box-sizing: border-box;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  color: white;
+}
+
+header nav ul li a:hover {
+  color:yellow;
+}
+
+h2 {
+  color: grey;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 120%;
+}
+
+h3 {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 20%;
+}
+
+#content img {
+  width: 100%;
+}
+
+
+h5 {
+  color: grey;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+
+#content p {
+  font-family: 'Open Sans', sans-serif;
+  color: grey;
+  font-size: 14px;
+}
+
+#more {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  color: red;
+  float: right;
+}
+
+aside p {
+  font-family: 'Open Sans', sans-serif;
+  color: grey;
+  font-size: 10pt
+}
+
+.list {
+  margin-left: 18px;
+}
+
+aside ul li a {
+  font-family: 'Open Sans', sans-serif;
+  color: red;
+  font-size: 10pt;
+  line-height: 28px;
+}
+
+footer nav {
+  padding-top: 10px;
+}
+
+footer nav a {
+  display: inline;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  color: red;
+  font-size: 10pt;
+}
+
+footer small {
+  font-family: 'Open Sans', sans-serif;
+  color: grey;
+  font-size: 8pt;
+}
