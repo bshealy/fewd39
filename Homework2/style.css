@@ -1,3 +1,5 @@
+.firstcharacter {float: left; width: 0.7em; font-size: 400%; line-height: 100%; }
+
 #container {
   margin: 40px;
 }
