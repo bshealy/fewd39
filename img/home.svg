@@ -1,0 +1,1 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50"><circle fill="#B0BEC5" cx="24.9" cy="25" r="24"/><defs><path id="a" d="M12.9 12h24v24h-24z"/></defs><clipPath id="b"><use xlink:href="#a" overflow="visible"/></clipPath><path clip-path="url(#b)" fill="#FFF" d="M22.9 32v-6h4v6h5v-8h3l-10-9-10 9h3v8"/></svg>

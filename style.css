@@ -1,10 +1,13 @@
-a:link {color: #4285F4;
-}
+body{
+    margin-top: -21px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px;
+    padding: 0;
+  }
 
+a:link {color: #4285F4;}
 a:visited {color: #1A237E;}
 
-h1 {font-family: 'Raleway', sans-serif;
-text-align: center;
+h1 {color: white; font-family: 'Raleway', sans-serif;
+text-align: center; padding-top: 0px;
 }
 
 h2 {font-family: 'Raleway', sans-serif;
@@ -14,11 +17,21 @@ text-align: center;
 a {text-decoration: none; font-family: 'Raleway', sans-serif;
 }
 
+.color {background-color: #00BCD4; height: 250px;
+
+}
+
 li {padding-top: 5px; list-style-type: none;
 }
 
-ul {text-align: center;
+ul {margin-left: -40px; text-align: center;
 }
 
-.homework {width: 50%; float: left;}
-.classass {width: 50%; float: right;}
+img {display: block; margin: 0 auto; padding-top: 50px;
+}
+
+.homework {width: 35%; float: left; margin-left: 15%;
+}
+
+.classass {width: 35%; float: right; margin-right: 15%;
+}
