@@ -1,13 +1,35 @@
-body{
-    margin-top: -21px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px;
-    padding: 0;
-  }
-
-a:link {color: #4285F4;}
-a:visited {color: #1A237E;}
+.header {
+  width:100%;
+  background-color: #00BCD4;
+  height: 250px;
+  position:fixed;
+	top:0;
+	left:0;
+}
 
 h1 {color: white; font-family: 'Raleway', sans-serif;
 text-align: center; padding-top: 0px;
+}
+
+img {display: block; margin: 0 auto; padding-top: 50px;
+}
+
+.container {
+  width: 100%;
+  padding-top: 250px;
+}
+
+.homework {
+  width: 35%;
+  float: left;
+  margin-left: 15%;
+}
+
+.classass {
+  width: 35%;
+  float: right;
+  margin-right: 15%;
+  padding-top: -500px;
 }
 
 h2 {font-family: 'Raleway', sans-serif;
@@ -17,21 +39,11 @@ text-align: center;
 a {text-decoration: none; font-family: 'Raleway', sans-serif;
 }
 
-.color {background-color: #00BCD4; height: 250px;
-
-}
+a:link {color: #4285F4;}
+a:visited {color: #1A237E;}
 
 li {padding-top: 5px; list-style-type: none;
 }
 
 ul {margin-left: -40px; text-align: center;
-}
-
-img {display: block; margin: 0 auto; padding-top: 50px;
-}
-
-.homework {width: 35%; float: left; margin-left: 15%;
-}
-
-.classass {width: 35%; float: right; margin-right: 15%;
 }
