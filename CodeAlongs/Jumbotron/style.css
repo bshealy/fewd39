@@ -1,0 +1,37 @@
+
+
+.jumbotron {
+  text-align: center;
+}
+
+h3 {
+  color: grey;
+ font-size: 22px;
+}
+
+h4 {
+ font-size: 18px;
+ display: block;
+}
+
+.nav {
+  padding-top: 14px;
+}
+
+.pull-right {
+    float: right;
+}
+
+.pull-left {
+    float: left;
+}
+
+.content {
+padding: 0 20px;
+}
+
+.btn .btn-success .btn-lg {
+  font: sans serif;
+  background-image: none
+  border: none;
+}
