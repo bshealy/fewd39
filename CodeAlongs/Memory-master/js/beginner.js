@@ -64,7 +64,7 @@ for (var i = 0; i < 2; i++) {
 
 resetArray();
 		} else {
-		alert(Loser);
+		alert("Loser");
 
 for (var i = 0; i < 2; i++) {
 			document
@@ -73,8 +73,7 @@ for (var i = 0; i < 2; i++) {
 					.classList
 					.add("animal");
 			}
-
-resetArray();
+			resetArray();
 		}
 	}
 }
