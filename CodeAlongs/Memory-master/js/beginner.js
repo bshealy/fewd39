@@ -1,4 +1,4 @@
-var animals = ["tiger", "tiger", "cat", "cat", "dog", "dog", "bird", "bird", "mouse", "mouse", "worm", "worm"];
+var animals = ["tiger", "tiger", "cat", "cat", "dog", "dog", "bird", "bird", "mouse", "mouse", "zebra", "zebra"];
 
 function shuffleArray(array) {
 	for (var i = array.length - 1; i > 0; i--) {
@@ -10,7 +10,7 @@ function shuffleArray(array) {
 	return array;
 	}
 
-	shuffleArray("animals");
+	shuffleArray(animals);
 
 	for (var i = 1; i < 13; i++) {
 	document
@@ -64,7 +64,7 @@ for (var i = 0; i < 2; i++) {
 
 resetArray();
 		} else {
-		alert("Loser");
+		alert("These two animals don't make a pair! Please try agian.");
 
 for (var i = 0; i < 2; i++) {
 			document
