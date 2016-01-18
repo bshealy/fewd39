@@ -64,7 +64,7 @@ for (var i = 0; i < 2; i++) {
 
 resetArray();
 		} else {
-		alert("These two animals don't make a pair! Please try agian.");
+		alert("Animals don't match! Please try agian.");
 
 for (var i = 0; i < 2; i++) {
 			document
