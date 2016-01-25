@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Javascript Elements</title>
+  </head>
+  <style>
+  .green {
+    color: green;
+  }
+
+  </style>
+  <body>
+    <h1>Hi there!</h1>
+      <ul>
+        <li class=green>list item 1</li>
+
+      </ul>
+  <button>Click me!</button>
+  <br>
+  <br>
+  </body>
+  <script>
+// created a new element li, child to ul
+    var listItem = document.createElement("li");
+    listItem.textContent = "list item 2";
+
+    var image = document.createElement("img");
+    image.setAttribute("src","../../img/Burgan.jpg");
+
+// Selected the parent
+    var list = document.querySelector('ul')
+    var body = document.querySelector("body")
+// Appending child to parent
+    list.appendChild(listItem)
+    body.appendChild(image)
+    //notes for how to set up an Event Listener on a button
+    var button = document.querySelector('button');
+    function buttonClicked() {
+
+      alert('Hello World!');
+
+    }
+    button.addEventListener('click', buttonClicked);
+  </script>
+</html>

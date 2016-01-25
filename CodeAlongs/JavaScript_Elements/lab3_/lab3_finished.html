@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 2</title>
+</head>
+
+<style>
+	.green {
+		color: green;
+	}
+
+	#fontsize100 {
+		font-size: 100px
+	}
+</style>
+
+<body>
+ <h1> Hi there! </h1>
+ 	<ul>
+ 		<li class = "green">list item 1</li>
+		<button>Submit</button> 		
+ 	</ul>
+ 	<input>
+</body>
+<script >
+	//created a new element ("li"), child to the ul
+	var listItem = document.createElement("li");
+	listItem.textContent = "my first list item is now green";
+	
+	// listItem.setAttribute("class", "green");
+	listItem.className = "green";
+
+	//setting an id attribute to my new element
+	// listItem.setAttribute("id", "fontsize100");
+
+
+	//creating a new element (img) and setting attributes 
+	var image = document.createElement("img")
+	image.setAttribute("src", "http://webneel.com/wallpaper/sites/default/files/images/04-2013/25-rainbow-photography.jpg")
+
+	//grabbed, or selected the parent "ul"
+	var ul = document.querySelector("ul");
+
+	//putting the child element underneath the parent element
+	ul.appendChild(listItem);
+	ul.appendChild(image);
+
+	//notes for how to set up an Event Listener on a button 
+	var button = document.querySelector('button');
+	function buttonClicked() {
+
+		alert('Hello World!');
+
+	}
+	button.addEventListener('click', buttonClicked);
+</script>
+</html>
