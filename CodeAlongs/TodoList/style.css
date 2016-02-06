@@ -24,12 +24,12 @@ button {
   cursor: pointer;
 }
 input {
-  width: 70%;
+  width: 68%;
 }
 button {
   color: white;
-  width: 28%;
-  background-color: #049cd8;
+  width: 30%;
+  background-color: #607D8B;
 }
 form,
 ul {

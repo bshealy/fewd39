@@ -35,4 +35,3 @@ function formSubmitted(event){
   $list.append(newListItem);
   $form[0].reset();
 }
-
