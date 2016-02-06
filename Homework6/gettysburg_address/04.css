@@ -8,6 +8,7 @@ html, body {
 }
 
 body {
+  display: none;
   font: 62.5% Verdana, Helvetica, Arial, sans-serif;
   color: #000;
   background: #fff;
@@ -54,4 +55,3 @@ a {
   margin: .5em 0;
   cursor: pointer;
 }
-
