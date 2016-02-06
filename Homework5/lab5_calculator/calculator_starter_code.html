@@ -43,4 +43,25 @@ button { background-color: #58c0f5; color: white; border-radius: 3px; }
 
 <script>
 // Your code goes here.
+var input1 = document.querySelector('.first-operand');
+  var input2 = document.querySelector('.second-operand');
+  var result = document.querySelector('.result');
+
+  document.querySelector('.add-button').addEventListener('click', add);
+  document.querySelector('.subtract-button').addEventListener('click', sub);
+  document.querySelector('.multiply-button').addEventListener('click', multiply);
+  document.querySelector('.divide-button').addEventListener('click', divide);
+
+    function add (event) {
+      result.value = (parseFloat(input1.value) + parseFloat(input2.value));
+    };
+    function sub (event) {
+      result.value = (parseFloat(input1.value) - parseFloat(input2.value));
+    };
+    function multiply (event) {
+      result.value = (parseFloat(input1.value) * parseFloat(input2.value));
+    };
+    function divide (event) {
+      result.value = (parseFloat(input1.value) / parseFloat(input2.value));
+    };
 </script>
