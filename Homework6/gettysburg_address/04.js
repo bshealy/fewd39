@@ -36,26 +36,66 @@ $('#switcher-small').on('click', function () {
 });
 
 
-
 // Challenge: React to presses of the arrow keys by smoothly moving the switcher box 20 pixels in the corresponding direction. The key codes for the arrow keys are: 37 (left), 38 (up), 39 (right), and 40 (down).
 
+$(document).ready(function () {
+    // $div_name = "#item"; //Name of the div you wish to control
+    // $speed = 200; //Higher is slower
+    // $move = "100"; //Amount you want to move the element by
+    $("body").keydown(function (e) {
+        e.preventDefault();
+        switch (e.keyCode) {
+            case 37:
+                //left
+                $("#switcher").animate({
+                    right: "+=" + "20"
+                }, "200", function () {});
+                break;
+            case 38:
+                //up
+                $("#switcher").animate({
+                    bottom: "+=" + "20"
+                }, 200, function () {});
+                break;
+            case 39:
+                //right
+                $("#switcher").animate({
+                    right: "-=" + "20"
+                }, 200, function () {});
+                break;
+            case 40:
+                //down
+                $("#switcher").animate({
+                    bottom: "-=" + "20"
+                }, 200, function () {});
+                break;
+        }
+    });
+});
 
 
-
-
-
-
-// Bonus: Make the style switcher work.
-// $('#switcher-default').on('click', function () {
-// 	$('.speech').css('font-size', '1.0em');
+// $(document).keydown(function(e){
+//   // console.log(e);
+//     switch (e.which){
+//     case 37:    //left arrow key
+//         $("#switcher").finish().animate({
+//             left: "-=20"
+//         });
+//         break;
+//     case 38:    //up arrow key
+//         $("#switcher").finish().animate({
+//             top: "-=20"
+//         });
+//         break;
+//     case 39:    //right arrow key
+//         $("#switcher").finish().animate({
+//             left: "+=20"
+//         });
+//         break;
+//     case 40:    //bottom arrow key
+//         $("#switcher").finish().animate({
+//             top: "+=20"
+//         });
+//         break;
+//     }
 // });
-//
-// $('#switcher-large').on('click', function () {
-// 	$('.speech').css('font-size', '1.5em');
-// });
-//
-// $('#switcher-small').on('click', function () {
-// 	$('.speech').css('font-size', '0.8em');
-// });
-
-// Challenge: React to presses of the arrow keys by smoothly moving the switcher box 20 pixels in the corresponding direction. The key codes for the arrow keys are: 37 (left), 38 (up), 39 (right), and 40 (down).
