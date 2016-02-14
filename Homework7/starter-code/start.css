@@ -1,0 +1,65 @@
+	/*********** GLOBAL STYLES ***********/
+
+	body,
+	html {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		color: #2d4052;
+	}
+
+	#map-canvas {
+		height: 85%;
+	}
+
+	/*********** LAYOUT ***********/
+
+
+	header {
+		height: 7%;
+		width: 100%
+	}
+
+	section {
+		height: 85%;
+	}
+
+	aside {
+		height: 85%;
+	}
+
+	footer {
+		height: 8%;
+		text-align: center;
+		width: 100%
+	}
+
+	/*********** OTHER STYLES ***********/
+
+li {
+	list-style-type: none;
+}
+
+p {
+	padding: 10px;
+}
+
+img {
+	width: 100%;
+
+}
+
+.right {
+	background: #F5F5F5;
+	padding: 20px;
+	height: 100%;
+	overflow: auto;
+}
+
+	/*********** MEDIA QUERIES ***********/
+	@media (max-width: 768px) {
+		.right {
+			background: orange;
+			/*position: relative;*/
+		}
+	}
